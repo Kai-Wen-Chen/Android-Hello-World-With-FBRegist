@@ -7,7 +7,7 @@ FB登入功能with login button
 
 2.至Manifest
 2-1.加入<uses-permission android:name="android.permission.INTERNET"/> 取得網路
-2-2.在<application ... />內加入<meta-data android:name="com.facebook.sdk.ApplicationId" android:value= "465068090367579" />
+2-2.在<application ... />內加入<meta-data android:name="com.facebook.sdk.ApplicationId" android:value= FB_APP_ID />
     此為加入該APP的ID
     2-2-1.APP的ID需去FB申請
     2-2-2.申請時需要自己開發環境的hash key
@@ -21,7 +21,7 @@ FB登入功能with login button
     此為取得登入畫面的相關控制(即登入的"活動")
 
 3.至string.xml
-3-1.加入<string name="facebook_app_id">465068090367579</string>同樣是加入APP的ID
+3-1.加入<string name="facebook_app_id">FB_APP_ID</string>同樣是加入APP的ID
 
 4.至activity_main.xml
 4-1.加入<com.facebook.login.widget.LoginButton
