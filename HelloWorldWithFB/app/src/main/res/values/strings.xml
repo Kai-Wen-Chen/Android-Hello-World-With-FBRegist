@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloWorldWithFB</string>
+    <string name="facebook_app_id">465068090367579</string>
+</resources>
